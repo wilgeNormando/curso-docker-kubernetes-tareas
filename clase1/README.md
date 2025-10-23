@@ -17,6 +17,17 @@
      ```
 3. **Explicación breve** - Acontinuacion se detalla brevemente los comandos utilizados para la resolucion de la tarea solicitada
 
+| Componente   | Descripción                                                                 |
+| :----- | :---------------------------------------------------------------------- |
+| `docker run`  | Crea y ejecuta un contenedor                               |
+| `-d`    |  Ejecuta el contenedor en modo "detached" o "desacoplado", es decir, se ejecuta en segundo plano                         |
+| `-p 3306:3306` | Mapea el puerto 3306 de la máquina local al puerto 3306 del contenedor. Este es el puerto predeterminado de MySQL. |
+|`-e MYSQL_ROOT_PASSWORD=tu_contraseña_segura`| Esta es una variable de entorno que establece la contraseña para el usuario root de MySQL|
+|`--name mi-mysql`| Asigna el nombre al contenedor para que sea más fácil de identificar y gestionar|
+|`mysql`| Especifica la imagen de Docker a utilizar|
+
+
+
 4. **Evidencia:**
    - Screenshot de `docker ps` mostrando el container corriendo
      ![Container corriendo](screenshots/docker_ps.png)
