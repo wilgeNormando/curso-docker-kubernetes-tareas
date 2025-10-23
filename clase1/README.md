@@ -28,5 +28,10 @@
      ![detener el contenedor mysql](screenshots/docker_stop.png)
      ![eliminar el contenedor mysql](screenshots/docker_rm.png)
 
+5. **Conclusiones**
+
+    Aprendí a ejecutar containers en segundo plano, mapear puertos y pasar variable de entorno.<br>
+    Tuve una dificultad al conectarme al servidor de mysql desde el cliente dbeaver el error que me arrojaba era                  `allowPublicKeyRetrieval` lo solucione ingresando a `Driver Property` busque la clave `allowPublicKeyRetrieval` y cambie      el valor de `False` a `True` una vez cambiado el valor pude conectarme desde el cliente DBeaver.
+
 
 
