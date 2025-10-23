@@ -1,2 +1,2 @@
-# curso-docker-kubernetes-tareas
+# Tareas - Curso Docker & Kubernetes
 Repocitorio donde se publicaran las tareas 
