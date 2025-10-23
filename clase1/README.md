@@ -18,7 +18,15 @@
 3. **Explicación breve** - Acontinuacion se detalla brevemente los comandos utilizados para la resolucion de la tarea solicitada
 
 4. **Evidencia:**
-
+   - Screenshot de `docker ps` mostrando el container corriendo
+     ![Container corriendo](screenshots/docker_ps.png)
+   - Screenshot salida de `docker logs` de mysql
+     ![log de mysql](screenshots/docker_log.png)
+   - Screenshot conexion a mysql desde Dbeaver
+     ![consumo desde un cliente](screenshots/dbeaver_ejecucion.png)
+   - Screenshot o salida mostrando que el container fue eliminado correctamente
+     ![detener el contenedor mysql](screenshots/docker_stop.png)
+     ![eliminar el contenedor mysql](screenshots/docker_rm.png)
 
 
 
